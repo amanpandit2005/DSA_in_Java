@@ -1,4 +1,4 @@
-package L43_L44_L45_L46_L47_Binary_Trees;
+package Binary_Trees;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -20,7 +20,34 @@ class Pair{
         this.level = level;
     }
 }
+class Quad{
+    int max;
+    int min;
+    int size;
+    int sum;
+    Quad(int max, int min, int size, int sum){
+        this.max = max;
+        this.min = min;
+        this.size = size;
+        this.sum = sum;
+    }
+    void display(){
+        System.out.println("MaxElement: "+max+"  MinElement: "+min+"  Size: "+size+"  SumOfElements: "+sum);
+    }
+}
 public class Basics {
+    public static Quad maxMinSizeSum(Node root){
+        if (root==null){
+            return new Quad(Integer.MIN_VALUE, Integer.MAX_VALUE, 0, 0);
+        }
+        Quad lst = maxMinSizeSum(root.left);
+        Quad rst = maxMinSizeSum(root.right);
+        int max  = Math.max(root.val,Math.max(lst.max, rst.max));
+        int min  = Math.min(root.val,Math.min(lst.min, rst.min));
+        int size = 1 + lst.size + rst.size;
+        int sum = root.val + lst.sum + rst.sum;
+        return new Quad(max, min, size, sum);
+    }
     public static void  main(String[] args) {
 
 //                 1
@@ -47,6 +74,8 @@ public class Basics {
 //            kThLvel(a,0,i);
 //            System.out.println();
 //        }
+
+        maxMinSizeSum(a).display();
 
         System.out.print("PreOrder: ");
         preorderTraversal(a);
