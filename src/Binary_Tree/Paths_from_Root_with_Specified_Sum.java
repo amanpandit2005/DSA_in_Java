@@ -1,4 +1,4 @@
-package Binary_Trees;
+package Binary_Tree;
 
 import java.util.ArrayList;
 
