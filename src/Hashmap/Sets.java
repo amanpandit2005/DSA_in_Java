@@ -16,14 +16,32 @@ public class Sets {
         set.add(77);
         set.add(88);
         set.add(99);
-        System.out.println(set.size());
-        System.out.println(set.contains(22)+" "+set.contains(55));
-        System.out.println(set.contains(22));
-        set.remove(22);
-        System.out.println(set.contains(22));
-        System.out.println(set.size());
+
+//        for (int ele : set){  // ConcurrentModificationExceptionError
+//            set.remove(ele);
+//        }
+//
+//        System.out.println();
+
+        for (int ele : set){
+            System.out.print(ele+" ");
+        }
+
+        System.out.println();
+
+        set.clear();
+        for (int ele : set){
+            System.out.print(ele+" ");
+        }
+//        System.out.println(set.size());
+//        System.out.println(set.contains(22)+" "+set.contains(55));
+//        System.out.println(set.contains(22));
+//        set.remove(22);
+//        System.out.println(set.contains(22));
+//        System.out.println(set.size());
 
 //        System.out.println(set);
+
 
 //        set.add(11);
 //        set.add(22);
