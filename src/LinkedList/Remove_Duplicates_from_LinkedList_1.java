@@ -1,6 +1,6 @@
 package L30_L31_L32_L33_L34_L35_L36_LinkedList;
 
-public class Remove_Duplicates_from_LinkedList {
+public class Remove_Duplicates_from_LinkedList_1 {
     class Node
     {
         int data;

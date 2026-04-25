@@ -98,7 +98,7 @@ public class Basics {
         System.out.println("Level: "+LevelOfBT(a));
         System.out.print("LevelOrder: ");
         levelOrder(a);
-        System.out.println("LevelOreder LineWise: ");
+        System.out.println("LevelOrder LineWise: ");
         levelOrderLineWise(a);
         System.out.println("Kth Level: ");
         kThLvel(a,0,1);

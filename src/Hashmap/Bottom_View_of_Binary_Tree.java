@@ -2,24 +2,30 @@ package Hashmap;
 
 import java.util.*;
 
-class Node {
-    int data;
-    Node left;
-    Node right;
-}
+//class Node {
+//    int data;
+//    Node left;
+//    Node right;
+//
+//    Node(int data) {
+//        this.data = data;
+//        left = null;
+//        right = null;
+//    }
+//}
+//
+//class Pair {
+//    Node node;
+//    int dist;
+//    Pair(Node node, int dist) {
+//        this.node = node;
+//        this.dist = dist;
+//    }
+//}
 
-class Pair {
-    Node node;
-    int dist;
-    Pair(Node node, int dist) {
-        this.node = node;
-        this.dist = dist;
-    }
-}
-
-public class Top_View_of_Binary_Tree {
+public class Bottom_View_of_Binary_Tree {
     class Solution {
-        static ArrayList<Integer> topView(Node root) {
+        public ArrayList<Integer> bottomView(Node root) {
             ArrayList<Integer> ans = new ArrayList<>();
             HashMap<Integer,Integer> map = new HashMap<>(); // <horizontal dist,node data>
             Queue<Pair> q = new LinkedList<>();
@@ -31,7 +37,7 @@ public class Top_View_of_Binary_Tree {
                 int dist = front.dist;
                 minDist = Math.min(dist,minDist);
                 maxDist = Math.max(dist,maxDist);
-                if(!map.containsKey(dist)) map.put(dist,node.data); // work
+                map.put(dist,node.data); // work
                 if(node.left!=null) q.add(new Pair(node.left,dist-1));
                 if(node.right!=null) q.add(new Pair(node.right,dist+1));
             }
