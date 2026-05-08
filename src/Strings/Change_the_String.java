@@ -1,4 +1,4 @@
-package L20_L21_Strings;
+package Strings;
 
 public class Change_the_String {
     String modify(String s) {

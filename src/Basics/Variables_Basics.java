@@ -1,4 +1,4 @@
-package L1_L2_Basics;
+package Basics;
 
 public class Variables_Basics {
     public static void main(String[] args) {

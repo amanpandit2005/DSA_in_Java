@@ -1,4 +1,4 @@
-package L17_L18_L19_Binary_Search;
+package Binary_Search;
 
 public class First_Occurence {
     public int binarysearch(int[] arr, int target) {

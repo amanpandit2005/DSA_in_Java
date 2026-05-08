@@ -1,4 +1,5 @@
-package L1_L2_Basics;
+package Basics;
+
 import java.util.Scanner;
 public class Sum_of_Two_Numbers {
     public static void main(String[] args){

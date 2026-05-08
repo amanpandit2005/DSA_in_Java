@@ -1,4 +1,4 @@
-package L1_L2_Basics;
+package Basics;
 
 public class TSA_of_Cuboid {
         public static void main(String[] args) {

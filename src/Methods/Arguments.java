@@ -1,4 +1,4 @@
-package L8_Methods;
+package Methods;
 
 public class Arguments {
     public static void sum(int a, int b){

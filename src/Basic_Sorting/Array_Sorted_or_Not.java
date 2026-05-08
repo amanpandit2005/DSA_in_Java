@@ -1,4 +1,4 @@
-package L16_Basic_Sorting;
+package Basic_Sorting;
 
 public class Array_Sorted_or_Not {
     public boolean arraySortedOrNot(int[] arr) {

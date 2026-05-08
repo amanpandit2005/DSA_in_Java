@@ -1,4 +1,4 @@
-package L30_L31_L32_L33_L34_L35_L36_LinkedList;
+package LinkedList;
 
 public class First_Node_of_Loop_in_LinkedList {
 class Node {

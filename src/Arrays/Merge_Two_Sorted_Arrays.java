@@ -1,4 +1,4 @@
-package L9_L10_L11_Arrays;
+package Arrays;
 
 public class Merge_Two_Sorted_Arrays {
     public static void main(String[] args) {

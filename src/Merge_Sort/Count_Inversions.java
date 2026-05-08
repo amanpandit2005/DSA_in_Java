@@ -1,4 +1,4 @@
-package L26_Merge_Sort;
+package Merge_Sort;
 
 public class Count_Inversions {
     class Solution {

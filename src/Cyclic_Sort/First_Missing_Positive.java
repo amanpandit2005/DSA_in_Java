@@ -1,4 +1,4 @@
-package L27_Cyclic_Sort;
+package Cyclic_Sort;
 
 public class First_Missing_Positive {
     public void swap(int[] arr, int i, int idx){

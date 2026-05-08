@@ -1,4 +1,4 @@
-package L27_Cyclic_Sort;
+package Cyclic_Sort;
 
 import java.util.ArrayList;
 

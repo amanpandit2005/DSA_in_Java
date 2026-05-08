@@ -1,6 +1,4 @@
-package L20_L21_Strings;
-
-import java.sql.SQLOutput;
+package Strings;
 
 public class Reverse_String_Builder {
     public static void main(String[] args) {

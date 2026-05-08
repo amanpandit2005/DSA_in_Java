@@ -1,4 +1,4 @@
-package L3_Conditionals;
+package Conditionals;
 
 import java.util.Scanner;
 

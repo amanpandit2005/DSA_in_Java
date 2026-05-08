@@ -1,4 +1,4 @@
-package L8_Methods;
+package Methods;
 
 public class Pass_by_Value {
     public static void ChangebyValue(int n) {

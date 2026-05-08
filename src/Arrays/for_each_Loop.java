@@ -1,4 +1,4 @@
-package L9_L10_L11_Arrays;
+package Arrays;
 
 public class for_each_Loop {
     public static void main(String[] args) {

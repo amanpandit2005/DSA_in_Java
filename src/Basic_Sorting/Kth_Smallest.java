@@ -1,5 +1,4 @@
-package L16_Basic_Sorting;
-
+package Basic_Sorting;
 public class Kth_Smallest {
     public static int kthSmallest(int arr[], int k) {
         int n=arr.length;

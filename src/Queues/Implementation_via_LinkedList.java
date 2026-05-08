@@ -1,4 +1,4 @@
-package L41_L42_Queue;
+package Queues;
 
 // Node class
 class Node {

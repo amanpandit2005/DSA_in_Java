@@ -1,4 +1,4 @@
-package L20_L21_Strings;
+package Strings;
 
 public class Most_Frequent_Character_3 {
     public char getMaxOccuringChar(String s) {

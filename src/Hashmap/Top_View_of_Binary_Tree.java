@@ -3,18 +3,18 @@ package Hashmap;
 import java.util.*;
 
 class Node {
-    int data;
-    Node left;
-    Node right;
+   int data;
+   Node left;
+   Node right;
 }
 
 class Pair {
-    Node node;
-    int dist;
-    Pair(Node node, int dist) {
-        this.node = node;
-        this.dist = dist;
-    }
+   Node node;
+   int dist;
+   Pair(Node node, int dist) {
+       this.node = node;
+       this.dist = dist;
+   }
 }
 
 public class Top_View_of_Binary_Tree {

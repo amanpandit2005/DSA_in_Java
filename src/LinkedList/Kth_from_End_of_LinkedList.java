@@ -1,4 +1,4 @@
-package L30_L31_L32_L33_L34_L35_L36_LinkedList;
+package LinkedList;
 
 public class Kth_from_End_of_LinkedList {
 

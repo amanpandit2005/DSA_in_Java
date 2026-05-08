@@ -1,4 +1,4 @@
-package L20_L21_Strings;
+package Strings;
 
 public class Interning_and_New_Keyword {
     public static boolean equals(String s5, String s6) {

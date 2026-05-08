@@ -1,4 +1,4 @@
-package L16_Basic_Sorting;
+package Basic_Sorting;
 
 public class Bubble_Sort_2 {
     public static void print(int[] arr){

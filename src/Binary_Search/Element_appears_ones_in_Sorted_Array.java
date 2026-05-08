@@ -1,4 +1,4 @@
-package L17_L18_L19_Binary_Search;
+package Binary_Search;
 
 public class Element_appears_ones_in_Sorted_Array {
     int single(int[] arr) {

@@ -1,4 +1,4 @@
-package L16_Basic_Sorting;
+package Basic_Sorting;
 
 public class Selection_Sort_2 {
     void selectionSort(int[] arr) {

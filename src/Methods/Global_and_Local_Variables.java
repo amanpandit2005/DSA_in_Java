@@ -1,4 +1,4 @@
-package L8_Methods;
+package Methods;
 
 public class Global_and_Local_Variables {
     static int x = 50; // x is Global Variable

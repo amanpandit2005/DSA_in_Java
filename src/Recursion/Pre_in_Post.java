@@ -1,6 +1,5 @@
-package L22_L23_L24_L25_Recursion;
+package Recursion;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Pre_in_Post {

@@ -1,6 +1,5 @@
-package L41_L42_Queue;
+package Queues;
 
-import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 

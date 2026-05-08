@@ -1,4 +1,4 @@
-package L28_L29_OOPS;
+package OOPS;
 
 public class Passing_OOPS_to_Methods {
     public static class car {

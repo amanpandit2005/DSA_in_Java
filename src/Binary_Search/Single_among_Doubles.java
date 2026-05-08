@@ -1,4 +1,4 @@
-package L17_L18_L19_Binary_Search;
+package Binary_Search;
 
 public class Single_among_Doubles {
     public static int search(int n, int arr[]) {

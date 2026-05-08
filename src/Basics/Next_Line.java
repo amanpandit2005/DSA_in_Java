@@ -1,5 +1,4 @@
-package L1_L2_Basics;
-
+package Basics;
 public class Next_Line {
     public static void main(String[] args) {
         System.out.println("Hello Aman");

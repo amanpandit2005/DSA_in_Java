@@ -1,5 +1,4 @@
-package L9_L10_L11_Arrays;
-
+package Arrays;
 import java.util.Scanner;
 
 public class Second_Largest_Element {

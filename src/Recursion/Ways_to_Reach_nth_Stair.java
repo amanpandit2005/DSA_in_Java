@@ -1,4 +1,4 @@
-package L22_L23_L24_L25_Recursion;
+package Recursion;
 
 public class Ways_to_Reach_nth_Stair {
     int countWays(int n) {

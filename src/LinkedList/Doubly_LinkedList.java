@@ -1,6 +1,4 @@
-package L30_L31_L32_L33_L34_L35_L36_LinkedList;
-
-import java.util.Objects;
+package LinkedList;
 
 class ListNode{
     int val;

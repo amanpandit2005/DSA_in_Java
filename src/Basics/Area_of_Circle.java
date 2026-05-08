@@ -1,4 +1,4 @@
-package L1_L2_Basics;
+package Basics;
 
 public class Area_of_Circle {
     public static void main(String[] args) {

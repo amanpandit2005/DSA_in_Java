@@ -1,4 +1,4 @@
-package L20_L21_Strings;
+package Strings;
 
 public class Passing_in_Function {
     public static void change(String x) {

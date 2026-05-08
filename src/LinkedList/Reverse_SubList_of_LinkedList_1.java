@@ -1,4 +1,4 @@
-package L30_L31_L32_L33_L34_L35_L36_LinkedList;
+package LinkedList;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package L20_L21_Strings;
+package Strings;
 
 public class Palindrome_String {
     boolean isPalindrome(String s) {

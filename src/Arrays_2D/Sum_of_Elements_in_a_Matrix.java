@@ -1,4 +1,4 @@
-package L13_L14_L15_2D_Arrays;
+package Arrays_2D;
 
 public class Sum_of_Elements_in_a_Matrix {
     int sumOfMatrix(int N, int M, int[][] arr) {

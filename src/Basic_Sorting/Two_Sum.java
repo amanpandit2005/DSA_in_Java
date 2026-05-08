@@ -1,4 +1,4 @@
-package L16_Basic_Sorting;
+package Basic_Sorting;
 
 import java.util.Arrays;
 import java.util.Scanner;

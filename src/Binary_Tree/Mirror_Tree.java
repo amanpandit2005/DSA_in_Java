@@ -1,4 +1,4 @@
-package L43_L44_L45_L46_L47_Binary_Trees;
+package Binary_Tree;
 
 public class Mirror_Tree {
     class Node {

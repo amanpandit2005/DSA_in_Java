@@ -1,4 +1,5 @@
-package L3_Conditionals;
+package Conditionals;
+
 import java.util.Scanner;
 
 public class Divisible_by_5 {

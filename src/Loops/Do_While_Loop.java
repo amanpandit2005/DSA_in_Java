@@ -1,4 +1,4 @@
-package L4_L5_Loops;
+package Loops;
 
 import java.util.Scanner;
 

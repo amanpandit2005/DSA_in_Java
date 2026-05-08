@@ -1,4 +1,4 @@
-package L22_L23_L24_L25_Recursion;
+package Recursion;
 
 public class Look_and_Say_Pattern {
     public String countAndSay(int n) {

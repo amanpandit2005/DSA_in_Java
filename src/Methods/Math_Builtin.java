@@ -1,4 +1,4 @@
-package L8_Methods;
+package Methods;
 
 public class Math_Builtin {
     public static void main(String[] args) {

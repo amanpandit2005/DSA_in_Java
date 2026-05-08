@@ -1,4 +1,5 @@
-package L41_L42_Queue;
+package Queues;
+
 class CircularQueue {
     private int[] arr;
     private int f;

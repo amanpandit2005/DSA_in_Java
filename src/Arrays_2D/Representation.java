@@ -1,4 +1,4 @@
-package L13_L14_L15_2D_Arrays;
+package Arrays_2D;
 
 public class Representation {
     public static void main(String[] args) {

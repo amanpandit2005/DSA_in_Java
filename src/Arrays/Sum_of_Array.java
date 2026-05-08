@@ -1,4 +1,4 @@
-package L9_L10_L11_Arrays;
+package Arrays;
 
 public class Sum_of_Array {
     int arraySum(int arr[]) {

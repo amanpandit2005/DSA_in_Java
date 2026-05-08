@@ -1,4 +1,4 @@
-package L9_L10_L11_Arrays;
+package Arrays;
 
 public class Rotate_Array_by_d_Elements_in_AntiClockWise {
     static void rotateArr(int arr[], int d) {

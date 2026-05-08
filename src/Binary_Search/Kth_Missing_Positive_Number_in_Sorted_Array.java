@@ -1,4 +1,4 @@
-package L17_L18_L19_Binary_Search;
+package Binary_Search;
 
 public class Kth_Missing_Positive_Number_in_Sorted_Array {
     public int kthMissing(int[] arr, int k) {

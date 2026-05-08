@@ -1,4 +1,4 @@
-package L27_Cyclic_Sort;
+package Cyclic_Sort;
 
 public class Missing_Number_in_Array {
     int missingNum(int arr[]) {

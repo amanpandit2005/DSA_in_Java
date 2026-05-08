@@ -1,4 +1,4 @@
-package L8_Methods;
+package Methods;
 
 public class Syntax {
     public static void hello(){

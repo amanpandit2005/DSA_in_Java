@@ -1,4 +1,4 @@
-package L37_L38_L39_L40_Stacks;
+package Stacks;
 
 import java.util.Stack;
 

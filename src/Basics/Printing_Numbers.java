@@ -1,4 +1,4 @@
-package L1_L2_Basics;
+package Basics;
 
 public class Printing_Numbers {
     public static void main(String[] args) {

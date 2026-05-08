@@ -1,4 +1,4 @@
-package L20_L21_Strings;
+package Strings;
 
 public class Plus {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package L41_L42_Queue;
+package Queues;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

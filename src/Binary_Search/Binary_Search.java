@@ -1,4 +1,4 @@
-package L17_L18_L19_Binary_Search;
+package Binary_Search;
 
 public class Binary_Search {
     public int search(int[] arr, int target) {

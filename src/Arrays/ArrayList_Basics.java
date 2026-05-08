@@ -1,4 +1,4 @@
-package L9_L10_L11_Arrays;
+package Arrays;
 
 import java.util.ArrayList;
 import java.util.Collections;

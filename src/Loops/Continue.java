@@ -1,4 +1,4 @@
-package L4_L5_Loops;
+package Loops;
 
 public class Continue {
     public static void main(String[] args) {

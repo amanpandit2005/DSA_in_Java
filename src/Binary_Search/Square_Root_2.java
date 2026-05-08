@@ -1,4 +1,4 @@
-package L17_L18_L19_Binary_Search;
+package Binary_Search;
 
 public class Square_Root_2 {
     int floorSqrt(int n) {

@@ -1,4 +1,5 @@
-package L28_L29_OOPS;
+package OOPS;
+
 class Cricketer{
     String name;
     int runs;

@@ -1,4 +1,4 @@
-package L22_L23_L24_L25_Recursion;
+package Recursion;
 
 public class Recursive_Binary_Search {
     public int helper(int[] nums, int target, int lo, int hi){

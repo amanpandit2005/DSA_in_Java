@@ -1,4 +1,4 @@
-package L13_L14_L15_2D_Arrays;
+package Arrays_2D;
 
 public class Search_in_Row_Column_Sorted_Matrix {
     public static boolean matSearch(int arr[][], int x) {

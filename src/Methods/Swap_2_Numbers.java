@@ -1,4 +1,4 @@
-package L8_Methods;
+package Methods;
 
 import java.util.Scanner;
 

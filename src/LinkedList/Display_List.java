@@ -1,15 +1,13 @@
-package L30_L31_L32_L33_L34_L35_L36_LinkedList;
+package LinkedList;
 
-import java.util.Scanner;
+class Node {
+   int val;
+   Node next;
 
-//class Node {
-//    int val;
-//    Node next;
-//
-//    Node(int val) {
-//        this.val = val;
-//    }
-//}
+   Node(int val) {
+       this.val = val;
+   }
+}
 public class Display_List {
     public static void display(Node head) {
 //        System.out.print(head.val+" ");

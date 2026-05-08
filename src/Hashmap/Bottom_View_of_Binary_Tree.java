@@ -2,46 +2,45 @@ package Hashmap;
 
 import java.util.*;
 
-//class Node {
-//    int data;
-//    Node left;
-//    Node right;
-//
-//    Node(int data) {
-//        this.data = data;
-//        left = null;
-//        right = null;
-//    }
-//}
-//
-//class Pair {
-//    Node node;
-//    int dist;
-//    Pair(Node node, int dist) {
-//        this.node = node;
-//        this.dist = dist;
-//    }
-//}
+class Node {
+    int data;
+    Hashmap.Node left;
+    Hashmap.Node right;
+
+    Node(int data) {
+        this.data = data;
+        left = null;
+        right = null;
+    }
+}
+class Pair {
+    Node node;
+    int dist;
+    Pair(Node node, int dist) {
+        this.node = node;
+        this.dist = dist;
+    }
+}
 
 public class Bottom_View_of_Binary_Tree {
     class Solution {
         public ArrayList<Integer> bottomView(Node root) {
             ArrayList<Integer> ans = new ArrayList<>();
-            HashMap<Integer,Integer> map = new HashMap<>(); // <horizontal dist,node data>
+            HashMap<Integer, Integer> map = new HashMap<>(); // <horizontal dist,node data>
             Queue<Pair> q = new LinkedList<>();
-            q.add(new Pair(root,0));
+            q.add(new Pair(root, 0));
             int minDist = Integer.MAX_VALUE, maxDist = Integer.MIN_VALUE;
-            while(q.size()>0){
+            while (q.size() > 0) {
                 Pair front = q.remove();
                 Node node = front.node;
                 int dist = front.dist;
-                minDist = Math.min(dist,minDist);
-                maxDist = Math.max(dist,maxDist);
-                map.put(dist,node.data); // work
-                if(node.left!=null) q.add(new Pair(node.left,dist-1));
-                if(node.right!=null) q.add(new Pair(node.right,dist+1));
+                minDist = Math.min(dist, minDist);
+                maxDist = Math.max(dist, maxDist);
+                map.put(dist, node.data); // work
+                if (node.left != null) q.add(new Pair(node.left, dist - 1));
+                if (node.right != null) q.add(new Pair(node.right, dist + 1));
             }
-            for(int i=minDist;i<=maxDist;i++){
+            for (int i = minDist; i <= maxDist; i++) {
                 ans.add(map.get(i));
             }
             return ans;

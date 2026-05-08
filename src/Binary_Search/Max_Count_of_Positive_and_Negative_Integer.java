@@ -1,4 +1,4 @@
-package L17_L18_L19_Binary_Search;
+package Binary_Search;
 
 public class Max_Count_of_Positive_and_Negative_Integer {
     public int maximumCount(int[] arr) {

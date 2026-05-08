@@ -1,4 +1,4 @@
-package L17_L18_L19_Binary_Search;
+package Binary_Search;
 
 public class Peak_Index_in_Mountain_Array {
     public int peakIndexInMountainArray(int[] arr) {

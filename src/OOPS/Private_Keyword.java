@@ -1,4 +1,4 @@
-package L28_L29_OOPS;
+package OOPS;
 
 class students {
     String name; // null

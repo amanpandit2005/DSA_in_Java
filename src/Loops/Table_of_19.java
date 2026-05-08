@@ -1,4 +1,4 @@
-package L4_L5_Loops;
+package Loops;
 
 public class Table_of_19 {
     public static void main(String[] args) {

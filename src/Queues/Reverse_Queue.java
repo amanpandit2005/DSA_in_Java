@@ -1,10 +1,10 @@
-package L41_L42_Queue;
+package Queues;
 
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class Reverse_a_Queue {
+public class Reverse_Queue {
     public static void main(String[] args) {
         Queue<Integer> q = new LinkedList<>();
         q.add(10);

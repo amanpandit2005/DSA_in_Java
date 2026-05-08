@@ -1,4 +1,4 @@
-package L16_Basic_Sorting;
+package Basic_Sorting;
 
 public class Move_all_Zeroes_to_End {
     void pushZerosToEnd(int[] arr) {
